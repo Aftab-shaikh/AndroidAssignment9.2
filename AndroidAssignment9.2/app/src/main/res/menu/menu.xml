@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+      android:id="@+id/computer"
+      android:title="COMPUTER"
+
+      app:showAsAction="never"
+
+    ></item>
+    <item
+            android:id="@+id/gamepad"
+            android:title="GAMEPAD"
+            app:showAsAction="never"
+    ></item>
+    <item
+            android:id="@+id/camera"
+            android:title="CAMERA"
+
+            app:showAsAction="never"
+    ></item>
+    <item
+            android:id="@+id/video"
+            android:title="VIDEO"
+            app:showAsAction="never"
+    ></item>
+    <item
+            android:id="@+id/email"
+            android:title="Email"
+            app:showAsAction="never"
+    ></item>
+
+    <item
+            android:title="icon"
+            android:id="@+id/iconoption"
+            android:icon="@drawable/jellybeanpic"
+            app:showAsAction="always"
+
+    ></item>
+
+</menu>
